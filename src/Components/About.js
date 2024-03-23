@@ -6,11 +6,13 @@ import {TiArrowDownOutline} from "react-icons/ti";
 import "../App.css"
 const About = () => {
   return (
+
     <div
-      className=" flex flex-wrap justify-evenly items-center mt-10  p-10 columns-10"
+      className="  flex  justify-around mt-10  p-10 columns-10"
       id="About"
     >
-      <div className="flex-1 py-4 h-[40%] w-[40%]">
+      <div className=" flex flex-wrap flex-row justify-around">
+      <div className=" lg:w-[40%]">
         <span className={Styles.heroHeadText}>
           Hi, I'm <span className="text-orange-600">Shivam</span>
           <br />
@@ -31,8 +33,9 @@ target='blank' rel="noreferrer"
         </div>
       </div>
 
-      <div className="flex h-[40%] w-[40%]">
+      <div className=" lg:w-[40%]  h-[40%] w-[40%]">
         <img src={Profile} alt="Profile" className="element object-contain p-4  " />
+      </div>
       </div>
 
     </div>
