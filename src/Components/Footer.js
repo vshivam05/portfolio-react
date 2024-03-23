@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 function Footer() {
   return (
     <div>
-      <div className="w-[screen] bg-black flex flex-row justify-evenly">
+      <div className="w-[screen] md:w-[] bg-black flex flex-wrap justify-evenly   ">
         <div className="flex flex-row p-2 flex-wrap justify-around">
           <a
             href="https://www.linkedin.com/in/shivam032/"
