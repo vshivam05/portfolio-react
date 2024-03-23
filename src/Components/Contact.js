@@ -59,7 +59,7 @@ const Contact = () => {
             </button>
           </form>
           </div>
-        <div className=" lg-w-[40%] h-[40%] w-[40%]">
+        <div className=" lg:w-[40%]  h-[40%] w-[40%]">
           <img src={cont} alt=" A image" />
         </div>
         </div>
