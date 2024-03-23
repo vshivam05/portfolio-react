@@ -12,10 +12,11 @@ import web from "../Assets/web.png";
 import weather from "../Assets/weather.png";
 import amazon from "../Assets/amazon.png";
 import imdb from "../Assets/imdb.png";
+import news from "../Assets/news.png";
 
 const services = [
   {
-    title: "web developer",
+    title: "Web Developer",
     icon: web,
   },
   {
@@ -68,14 +69,7 @@ const technologies = [
 ];
 
 const projects = [
-  {
-    name: "Weather Application",
-    description:
-      "The ReactJS Weather Application delivers real-time weather updates, seamlessly integrating with APIs to present easily accessible and informative weather data for users. ",
-    image: weather,
-    source_code_link: `https://github.com/striver2001/weather-reactjs`,
-    source_deploy_link: `https://reliable-lebkuchen-aee1d4.netlify.app/`,
-  },
+  
 
   {
     name: "Movie review App ",
@@ -85,12 +79,29 @@ const projects = [
     source_deploy_link: `https://striver2001.github.io/`,
   },
   {
+    name: "Newsify ",
+    description: "Developed a cutting-edge News platform leveraging the MERN Stack, highlighting expertise in MongoDB, Express,React js, and Node.js. ",
+    image: news,
+    source_code_link: `https://github.com/striver2001/newsapp1`,
+    
+  },
+  {
     name: "Amazon UI Clone ",
     description: "The Amazon UI clone created with HTML and CSS accurately mirrors the look and feel of the original Amazon website, offering a visually appealing and responsive user interface for browsing products and making purchases.",
     image: amazon,
     source_code_link: `https://github.com/striver2001/weather-reactjs`,
     source_deploy_link: `https://striver2001.github.io/AmazonClone/`,
   },
+  {
+    name: "Weather Application",
+    description:
+      "The ReactJS Weather Application delivers real-time weather updates, seamlessly integrating with APIs to present easily accessible and informative weather data for users. ",
+    image: weather,
+    source_code_link: `https://github.com/striver2001/weather-reactjs`,
+    source_deploy_link: `https://reliable-lebkuchen-aee1d4.netlify.app/`,
+  },
+  
+  
 ];
 
 export { services, technologies, projects };
