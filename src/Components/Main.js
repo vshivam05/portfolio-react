@@ -18,6 +18,8 @@ const Main = () => {
 const particlesLoaded = useCallback(async container => {
     await console.log(container);
 }, []);
+
+
   return (
     <div className='max-h-screen'>
         
